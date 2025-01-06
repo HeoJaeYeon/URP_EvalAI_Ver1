@@ -1,7 +1,7 @@
 # If you are not sure what all these fields mean, please refer our documentation here:
 # https://evalai.readthedocs.io/en/latest/configuration.html
 
-title: 2024-Summer-URP Pedestrian Detection Challenge # 챌린지 제목
+title: 2025-Winter-URP Pedestrian Detection Challenge # 챌린지 제목
 short_description: Random number generation challenge for each submission # 간단한 챌린지 설명
 
 # --- #
@@ -27,7 +27,7 @@ is_docker_based: False
 
 # --- #
 # 시작 날짜와 종료 날짜만 필요하다면 수정 #
-start_date: 2024-07-01 00:00:00
+start_date: 2025-01-13 00:00:00
 end_date: 2099-05-31 23:59:59
 published: True
 # --- #
@@ -73,7 +73,7 @@ leaderboard:
 # 이 설정은 evaluation에도 영향을 미치니 주석을 잘 보고 설정해주세요. #
 challenge_phases:
   - id: 1
-    name: 2024-Summer-URP Pedestrian Detection Challenge # 챌린지 이름
+    name: 2025-Winter-URP Pedestrian Detection Challenge # 챌린지 이름
     description: templates/challenge_phase_1_description.html #챌린지 설명이 들어가는 위치
     leaderboard_public: False # 리더보드 공개 유무
 
@@ -81,7 +81,7 @@ challenge_phases:
     # 시작-끝 날짜만 필요할 경우 수정 #
     is_public: True
     is_submission_public: True
-    start_date: 2023-01-01 00:00:00
+    start_date: 2025-01-13 00:00:00
     end_date: 2099-05-31 23:59:59
     # --- #
 
